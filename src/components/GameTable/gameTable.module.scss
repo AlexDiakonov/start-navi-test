@@ -1,0 +1,16 @@
+.gameTable {
+  border-collapse: collapse;
+  table-layout: fixed;
+  &__field {
+    &__cell {
+      border: 1px solid black;
+      padding: 0;
+      width: 3.2rem;
+      height: 3.2rem;
+    }
+  }
+}
+
+.activeCell {
+  background-color: #01a8f4;
+}
